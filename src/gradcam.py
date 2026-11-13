@@ -1,77 +1,46 @@
+import cv2
 import numpy as np
 import tensorflow as tf
-import cv2
 
-# -----------------------------------
-# Generate Grad-CAM Heatmap
-# -----------------------------------
+
 def get_gradcam_heatmap(img_array, model, last_conv_layer_name="conv5_block3_out"):
-
-    # Create gradient model
+    """Generate a normalized Grad-CAM heatmap for the selected output."""
     grad_model = tf.keras.models.Model(
-        [model.inputs],
-        [
-            model.get_layer(last_conv_layer_name).output,
-            model.output
-        ]
+        inputs=model.inputs,
+        outputs=[model.get_layer(last_conv_layer_name).output, model.output]
     )
 
-    # Compute gradients
     with tf.GradientTape() as tape:
+        conv_outputs, predictions = grad_model(img_array, training=False)
+        target_score = predictions[:, 0]
 
-        conv_outputs, predictions = grad_model(img_array)
+    grads = tape.gradient(target_score, conv_outputs)
+    if grads is None:
+        raise ValueError("Could not calculate gradients for the selected convolutional layer.")
 
-        loss = predictions[:, 0]
-
-    grads = tape.gradient(loss, conv_outputs)
-
-    # Average gradients
     pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
+    feature_maps = conv_outputs[0]
+    heatmap = tf.reduce_sum(feature_maps * pooled_grads, axis=-1)
+    heatmap = tf.maximum(heatmap, 0)
 
-    conv_outputs = conv_outputs[0]
-
-    # Weight feature maps
-    heatmap = conv_outputs @ pooled_grads[..., tf.newaxis]
-
-    heatmap = tf.squeeze(heatmap)
-
-    # Normalize
-    heatmap = np.maximum(heatmap, 0)
-
-    heatmap /= tf.math.reduce_max(heatmap)
-
+    max_value = tf.reduce_max(heatmap)
+    heatmap = tf.math.divide_no_nan(heatmap, max_value)
     return heatmap.numpy()
 
 
-# -----------------------------------
-# Overlay Heatmap on Original Image
-# -----------------------------------
 def overlay_heatmap(img_path, heatmap):
+    """Overlay a Grad-CAM heatmap on an image read by OpenCV."""
+    image = cv2.imread(str(img_path))
+    if image is None:
+        raise ValueError(f"Could not read image at: {img_path}")
 
-    # Read original image
-    img = cv2.imread(img_path)
+    heatmap = np.asarray(heatmap, dtype=np.float32)
+    if heatmap.ndim != 2:
+        raise ValueError("Grad-CAM heatmap must be a two-dimensional array.")
 
-    # Resize heatmap
-    heatmap = cv2.resize(
-        heatmap,
-        (img.shape[1], img.shape[0])
-    )
-
-    # Convert heatmap to color
-    heatmap = np.uint8(255 * heatmap)
-
-    heatmap = cv2.applyColorMap(
-        heatmap,
+    resized = cv2.resize(heatmap, (image.shape[1], image.shape[0]))
+    colored = cv2.applyColorMap(
+        np.uint8(np.clip(resized, 0, 1) * 255),
         cv2.COLORMAP_JET
     )
-
-    # Blend images
-    superimposed = cv2.addWeighted(
-        img,
-        0.6,
-        heatmap,
-        0.4,
-        0
-    )
-
-    return superimposed
+    return cv2.addWeighted(image, 0.6, colored, 0.4, 0)
