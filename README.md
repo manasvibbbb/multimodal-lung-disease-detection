@@ -23,7 +23,7 @@ A research-oriented Streamlit application for exploring chest X-ray and CT image
 pip install -r requirements.txt
 ```
 
-4. Configure Gemini only when AI-generated explanations are needed. Set `GEMINI_API_KEY` as an environment variable. Never commit a real API key.
+4. Optional Gemini explanation: copy `.env.example` to `.env` and replace the placeholder with a newly generated API key. The app loads this local file through python-dotenv. Do not commit `.env` or expose the key.
 5. Start Streamlit:
 
 ```bash
@@ -47,6 +47,8 @@ Streamlit will show the main application and the pages in the `pages/` directory
 
 The comparison page reads the committed `evaluation_results/cxr_metrics.csv` and `evaluation_results/ct_metrics.csv` files. Metrics displayed there refer to the corresponding stored test-set evaluations. They are not automatically recalculated for different model files, and they do not represent a validated fused-model result.
 
+The committed CT evaluation script uses `models/ct_model_v2.keras` with 128×128 ImageNet preprocessing. The main upload app uses `models/ct_model.h5` and the `src.predict` preprocessing pipeline (224×224 and division by 255). The saved CT metrics therefore must not be presented as measured performance for the main app's CT model without a matching re-evaluation.
+
 ## Multi-slice CT aggregation
 
 The multi-slice page analyses each uploaded image independently using the same CT model path and preprocessing helper as the existing app. It reports the arithmetic mean and median of the slice abnormality scores. This is a simple 2D slice aggregation utility; it does not perform 3D volume reconstruction, spatial modelling, or clinical validation.
@@ -57,4 +59,4 @@ Large `.h5` and `.keras` files are tracked with Git LFS. Install Git LFS before 
 
 ## API key security
 
-Set `GEMINI_API_KEY` in your local environment. Keep `.env` out of Git. If a key was ever committed or exposed, revoke/rotate it with the provider and use a new key.
+Use a local `.env` file for `GEMINI_API_KEY`; it is ignored by Git. If a key was ever committed or exposed, revoke/rotate it with the provider and use a new key.
