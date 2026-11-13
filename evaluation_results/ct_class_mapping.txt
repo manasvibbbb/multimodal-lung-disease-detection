@@ -1,0 +1,4 @@
+Class mapping: {'ABNORMAL': 0, 'NORMAL': 1}
+Abnormal index: 0
+Threshold: 0.5
+Probability used for evaluation: P(Abnormal)

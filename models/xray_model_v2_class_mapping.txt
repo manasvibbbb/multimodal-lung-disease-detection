@@ -1,0 +1,3 @@
+CXR Model V2 Class Mapping
+===========================
+{'NORMAL': 0, 'PNEUMONIA': 1}

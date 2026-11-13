@@ -1,0 +1,4 @@
+Class mapping: {'NORMAL': 0, 'PNEUMONIA': 1}
+Pneumonia index: 1
+Threshold: 0.5
+Probability used for evaluation: P(Pneumonia)

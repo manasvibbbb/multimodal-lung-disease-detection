@@ -1,0 +1,16 @@
+Metric,Value
+Accuracy,0.9946524064171123
+Precision,1.0
+Recall,0.9927140255009107
+F1-score,0.9963436928702011
+Sensitivity,0.9927140255009107
+Specificity,1.0
+PPV,1.0
+NPV,0.9802955665024631
+ROC-AUC,0.9999359273599326
+Threshold,0.5
+Test Samples,748.0
+True Negative,199.0
+False Positive,0.0
+False Negative,4.0
+True Positive,545.0

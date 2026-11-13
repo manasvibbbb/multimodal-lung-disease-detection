@@ -1,0 +1,7 @@
+CT MODEL PERFORMANCE
+
+Accuracy : 0.9813
+Precision: 0.9695
+Recall   : 0.9598
+F1 Score : 0.9646
+AUC      : 0.9982

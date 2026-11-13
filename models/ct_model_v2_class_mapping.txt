@@ -1,0 +1,1 @@
+{'ABNORMAL': 0, 'NORMAL': 1}

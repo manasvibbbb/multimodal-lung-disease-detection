@@ -1,0 +1,749 @@
+filename,true_label,true_label_numeric,predicted_label,predicted_label_numeric,abnormal_probability,raw_model_output
+ABNORMAL\000002 (4)_12.jpg,Abnormal,1,Abnormal,1,0.99308395,0.006916043
+ABNORMAL\000002 (4)_2.jpg,Abnormal,1,Abnormal,1,0.9878658,0.012134212
+ABNORMAL\000002 (6)_9.jpg,Abnormal,1,Abnormal,1,0.97188926,0.02811074
+ABNORMAL\000003_10.jpg,Abnormal,1,Abnormal,1,0.99367493,0.006325094
+ABNORMAL\000003_12.jpg,Abnormal,1,Abnormal,1,0.99367493,0.006325094
+ABNORMAL\000003_3.jpg,Abnormal,1,Abnormal,1,0.99367493,0.006325094
+ABNORMAL\000004 (4)_3.jpg,Abnormal,1,Abnormal,1,0.99283093,0.007169078
+ABNORMAL\000004 (5)_2.jpg,Abnormal,1,Abnormal,1,0.9768111,0.023188863
+ABNORMAL\000004 (5)_8.jpg,Abnormal,1,Abnormal,1,0.98083633,0.01916367
+ABNORMAL\000004 (7)_1.jpg,Abnormal,1,Abnormal,1,0.97860324,0.021396752
+ABNORMAL\000004 (7)_10.jpg,Abnormal,1,Abnormal,1,0.97860324,0.021396752
+ABNORMAL\000006 (4)_1.jpg,Abnormal,1,Abnormal,1,0.9975734,0.0024266415
+ABNORMAL\000006 (4)_2.jpg,Abnormal,1,Abnormal,1,0.9871391,0.012860913
+ABNORMAL\000006_1.jpg,Abnormal,1,Abnormal,1,0.99250317,0.0074968487
+ABNORMAL\000006_3.jpg,Abnormal,1,Abnormal,1,0.99250317,0.0074968487
+ABNORMAL\000007_7.jpg,Abnormal,1,Abnormal,1,0.9838689,0.016131092
+ABNORMAL\000007_9.jpg,Abnormal,1,Abnormal,1,0.98855585,0.011444173
+ABNORMAL\000008 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9991605,0.00083948346
+ABNORMAL\000008 (3)_9.jpg,Abnormal,1,Abnormal,1,0.99875265,0.0012473714
+ABNORMAL\000009 (2)_2.jpg,Abnormal,1,Abnormal,1,0.9930941,0.006905937
+ABNORMAL\000010 (6)_10.jpg,Abnormal,1,Abnormal,1,0.99210614,0.0078938445
+ABNORMAL\000010 (6)_11.jpg,Abnormal,1,Abnormal,1,0.9977264,0.002273615
+ABNORMAL\000013 (6)_1.jpg,Abnormal,1,Abnormal,1,0.99207544,0.007924566
+ABNORMAL\000013 (6)_7.jpg,Abnormal,1,Abnormal,1,0.98644453,0.013555484
+ABNORMAL\000015 (5)_11.jpg,Abnormal,1,Abnormal,1,0.99921817,0.00078184874
+ABNORMAL\000015 (5)_8.jpg,Abnormal,1,Abnormal,1,0.99474883,0.0052511944
+ABNORMAL\000015 (7)_1.jpg,Abnormal,1,Abnormal,1,0.99542356,0.004576474
+ABNORMAL\000015 (7)_10.jpg,Abnormal,1,Abnormal,1,0.99542356,0.004576474
+ABNORMAL\000015 (7)_2.jpg,Abnormal,1,Abnormal,1,0.9982632,0.0017368126
+ABNORMAL\000016 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9820175,0.01798247
+ABNORMAL\000024 (5)_11.jpg,Abnormal,1,Abnormal,1,0.99928004,0.00071996346
+ABNORMAL\000027 (2)_1.jpg,Abnormal,1,Abnormal,1,0.99587435,0.0041256784
+ABNORMAL\000027 (2)_4.jpg,Abnormal,1,Abnormal,1,0.9910062,0.008993805
+ABNORMAL\000028 (5)_12.jpg,Abnormal,1,Abnormal,1,0.9966749,0.003325094
+ABNORMAL\000028 (5)_8.jpg,Abnormal,1,Abnormal,1,0.98644537,0.013554617
+ABNORMAL\000028 (5)_9.jpg,Abnormal,1,Abnormal,1,0.997325,0.0026749673
+ABNORMAL\000028 (7)_11.jpg,Abnormal,1,Abnormal,1,0.9991725,0.00082751276
+ABNORMAL\000028 (7)_12.jpg,Abnormal,1,Abnormal,1,0.9969725,0.0030274827
+ABNORMAL\000030 (5)_1.jpg,Abnormal,1,Abnormal,1,0.98434865,0.015651317
+ABNORMAL\000030 (7)_1.jpg,Abnormal,1,Abnormal,1,0.9791884,0.02081159
+ABNORMAL\000033_1.jpg,Abnormal,1,Abnormal,1,0.99610406,0.0038959424
+ABNORMAL\000035 (5)_2.jpg,Abnormal,1,Abnormal,1,0.9981481,0.0018518866
+ABNORMAL\000035 (5)_4.jpg,Abnormal,1,Abnormal,1,0.99771607,0.002283923
+ABNORMAL\000035_1.jpg,Abnormal,1,Abnormal,1,0.9881333,0.011866667
+ABNORMAL\000035_2.jpg,Abnormal,1,Abnormal,1,0.98206675,0.017933225
+ABNORMAL\000036 (4)_3.jpg,Abnormal,1,Abnormal,1,0.9983902,0.0016098315
+ABNORMAL\000037 (2)_4.jpg,Abnormal,1,Abnormal,1,0.9968568,0.0031431916
+ABNORMAL\000037 (2)_7.jpg,Abnormal,1,Abnormal,1,0.99586666,0.004133356
+ABNORMAL\000038 (2)_10.jpg,Abnormal,1,Abnormal,1,0.99836737,0.001632631
+ABNORMAL\000038 (2)_7.jpg,Abnormal,1,Abnormal,1,0.99471784,0.0052821934
+ABNORMAL\000038 (5)_12.jpg,Abnormal,1,Abnormal,1,0.99121857,0.008781423
+ABNORMAL\000038 (7)_1.jpg,Abnormal,1,Abnormal,1,0.98901606,0.010983917
+ABNORMAL\000038 (7)_7.jpg,Abnormal,1,Abnormal,1,0.98650336,0.013496624
+ABNORMAL\000043 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9972943,0.002705698
+ABNORMAL\000043_1.jpg,Abnormal,1,Abnormal,1,0.99217623,0.007823739
+ABNORMAL\000043_2.jpg,Abnormal,1,Abnormal,1,0.99108475,0.008915237
+ABNORMAL\000043_9.jpg,Abnormal,1,Abnormal,1,0.9896484,0.010351584
+ABNORMAL\000044 (2)_11.jpg,Abnormal,1,Abnormal,1,0.99870616,0.0012938331
+ABNORMAL\000044 (2)_12.jpg,Abnormal,1,Abnormal,1,0.9914383,0.008561664
+ABNORMAL\000046 (4)_1.jpg,Abnormal,1,Abnormal,1,0.998203,0.001796994
+ABNORMAL\000046 (4)_2.jpg,Abnormal,1,Abnormal,1,0.99813884,0.0018611312
+ABNORMAL\000046 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9960893,0.0039107203
+ABNORMAL\000046 (5)_7.jpg,Abnormal,1,Abnormal,1,0.9978216,0.002178392
+ABNORMAL\000046 (7)_10.jpg,Abnormal,1,Abnormal,1,0.9971987,0.0028013187
+ABNORMAL\000046 (7)_7.jpg,Abnormal,1,Abnormal,1,0.99779207,0.0022079535
+ABNORMAL\000048 (5)_10.jpg,Abnormal,1,Abnormal,1,0.9857869,0.014213068
+ABNORMAL\000048 (5)_8.jpg,Abnormal,1,Abnormal,1,0.9915801,0.008419842
+ABNORMAL\000048 (5)_9.jpg,Abnormal,1,Abnormal,1,0.9984254,0.0015745477
+ABNORMAL\000048_2.jpg,Abnormal,1,Abnormal,1,0.9758927,0.024107303
+ABNORMAL\000049 (3)_10.jpg,Abnormal,1,Abnormal,1,0.99789095,0.0021090773
+ABNORMAL\000049 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9999079,9.2072274e-05
+ABNORMAL\000049 (3)_12.jpg,Abnormal,1,Abnormal,1,0.99789095,0.0021090773
+ABNORMAL\000050 (6)_10.jpg,Abnormal,1,Abnormal,1,0.99586505,0.0041349675
+ABNORMAL\000050 (6)_7.jpg,Abnormal,1,Abnormal,1,0.994924,0.0050760093
+ABNORMAL\000051 (3)_12.jpg,Abnormal,1,Abnormal,1,0.9968047,0.0031952595
+ABNORMAL\000053 (6)_12.jpg,Abnormal,1,Abnormal,1,0.9966624,0.003337595
+ABNORMAL\000054 (3)_10.jpg,Abnormal,1,Abnormal,1,0.996465,0.0035349585
+ABNORMAL\000054 (3)_2.jpg,Abnormal,1,Abnormal,1,0.99700844,0.0029915532
+ABNORMAL\000056 (5)_1.jpg,Abnormal,1,Abnormal,1,0.99208903,0.007910947
+ABNORMAL\000056 (5)_2.jpg,Abnormal,1,Abnormal,1,0.9779002,0.02209977
+ABNORMAL\000056 (5)_4.jpg,Abnormal,1,Abnormal,1,0.98676944,0.013230563
+ABNORMAL\000056 (7)_11.jpg,Abnormal,1,Abnormal,1,0.9992251,0.0007749179
+ABNORMAL\000056 (7)_8.jpg,Abnormal,1,Abnormal,1,0.98623466,0.01376532
+ABNORMAL\000057 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9930107,0.0069892914
+ABNORMAL\000057 (5)_9.jpg,Abnormal,1,Abnormal,1,0.9870041,0.0129959155
+ABNORMAL\000057 (6)_1.jpg,Abnormal,1,Abnormal,1,0.9895873,0.010412707
+ABNORMAL\000057 (6)_10.jpg,Abnormal,1,Abnormal,1,0.9895873,0.010412707
+ABNORMAL\000057 (6)_9.jpg,Abnormal,1,Abnormal,1,0.7859868,0.21401322
+ABNORMAL\000057 (7)_12.jpg,Abnormal,1,Abnormal,1,0.99363136,0.0063686618
+ABNORMAL\000057 (7)_2.jpg,Abnormal,1,Abnormal,1,0.9984991,0.0015009192
+ABNORMAL\000057 (7)_9.jpg,Abnormal,1,Abnormal,1,0.99504215,0.004957849
+ABNORMAL\000058 (3)_12.jpg,Abnormal,1,Abnormal,1,0.99547136,0.0045286445
+ABNORMAL\000058 (3)_3.jpg,Abnormal,1,Abnormal,1,0.99547136,0.0045286445
+ABNORMAL\000058 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9926013,0.0073987064
+ABNORMAL\000058 (7)_4.jpg,Abnormal,1,Abnormal,1,0.9900366,0.009963387
+ABNORMAL\000058_12.jpg,Abnormal,1,Abnormal,1,0.99495625,0.005043737
+ABNORMAL\000058_7.jpg,Abnormal,1,Abnormal,1,0.9953893,0.004610697
+ABNORMAL\000062 (5)_11.jpg,Abnormal,1,Abnormal,1,0.99461687,0.005383141
+ABNORMAL\000062 (7)_12.jpg,Abnormal,1,Abnormal,1,0.99655807,0.00344195
+ABNORMAL\000063 (6)_9.jpg,Abnormal,1,Abnormal,1,0.9980512,0.0019487678
+ABNORMAL\000063_10.jpg,Abnormal,1,Abnormal,1,0.997677,0.002323001
+ABNORMAL\000063_8.jpg,Abnormal,1,Abnormal,1,0.99791616,0.0020838473
+ABNORMAL\000064 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9985887,0.0014113132
+ABNORMAL\000065 (7)_11.jpg,Abnormal,1,Abnormal,1,0.99839157,0.0016084426
+ABNORMAL\000067 (2)_9.jpg,Abnormal,1,Abnormal,1,0.99723715,0.002762854
+ABNORMAL\000067 (3)_1.jpg,Abnormal,1,Abnormal,1,0.99421394,0.0057860725
+ABNORMAL\000067 (5)_11.jpg,Abnormal,1,Abnormal,1,0.9834316,0.016568406
+ABNORMAL\000067 (5)_3.jpg,Abnormal,1,Abnormal,1,0.987472,0.012528002
+ABNORMAL\000067 (7)_12.jpg,Abnormal,1,Abnormal,1,0.9904089,0.009591108
+ABNORMAL\000067 (7)_4.jpg,Abnormal,1,Abnormal,1,0.990348,0.009652008
+ABNORMAL\000068 (4)_12.jpg,Abnormal,1,Abnormal,1,0.9986526,0.0013474136
+ABNORMAL\000070 (2)_1.jpg,Abnormal,1,Abnormal,1,0.9907456,0.009254405
+ABNORMAL\000070_2.jpg,Abnormal,1,Abnormal,1,0.99367404,0.006325941
+ABNORMAL\000070_4.jpg,Abnormal,1,Abnormal,1,0.99521303,0.0047869775
+ABNORMAL\000071 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9996646,0.00033538885
+ABNORMAL\000071 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9961195,0.003880508
+ABNORMAL\000073 (6)_8.jpg,Abnormal,1,Abnormal,1,0.99260736,0.007392625
+ABNORMAL\000074 (6)_11.jpg,Abnormal,1,Abnormal,1,0.9888618,0.011138225
+ABNORMAL\000074 (7)_3.jpg,Abnormal,1,Abnormal,1,0.9815129,0.01848711
+ABNORMAL\000075_12.jpg,Abnormal,1,Abnormal,1,0.9922118,0.007788186
+ABNORMAL\000077 (2)_7.jpg,Abnormal,1,Abnormal,1,0.9882734,0.011726595
+ABNORMAL\000077 (4)_11.jpg,Abnormal,1,Abnormal,1,0.99850935,0.0014906612
+ABNORMAL\000077 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9973369,0.0026630866
+ABNORMAL\000077 (5)_1.jpg,Abnormal,1,Abnormal,1,0.988257,0.011743008
+ABNORMAL\000078 (5)_12.jpg,Abnormal,1,Abnormal,1,0.9855643,0.014435691
+ABNORMAL\000078_1.jpg,Abnormal,1,Abnormal,1,0.99409145,0.00590852
+ABNORMAL\000079_2.jpg,Abnormal,1,Abnormal,1,0.9986324,0.0013676025
+ABNORMAL\000081 (3)_2.jpg,Abnormal,1,Abnormal,1,0.99702716,0.0029728427
+ABNORMAL\000081 (6)_11.jpg,Abnormal,1,Abnormal,1,0.99618775,0.0038122642
+ABNORMAL\000081 (6)_8.jpg,Abnormal,1,Abnormal,1,0.99454767,0.005452364
+ABNORMAL\000081_11.jpg,Abnormal,1,Abnormal,1,0.99985397,0.00014604433
+ABNORMAL\000082 (3)_9.jpg,Abnormal,1,Abnormal,1,0.9994016,0.00059836166
+ABNORMAL\000082 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9904586,0.009541421
+ABNORMAL\000083 (2)_10.jpg,Abnormal,1,Abnormal,1,0.98488396,0.015116014
+ABNORMAL\000083 (2)_4.jpg,Abnormal,1,Abnormal,1,0.98277205,0.017227948
+ABNORMAL\000083 (5)_1.jpg,Abnormal,1,Abnormal,1,0.99377346,0.006226554
+ABNORMAL\000083 (5)_11.jpg,Abnormal,1,Abnormal,1,0.9992044,0.00079562556
+ABNORMAL\000083 (5)_4.jpg,Abnormal,1,Abnormal,1,0.9900905,0.009909482
+ABNORMAL\000083 (5)_9.jpg,Abnormal,1,Abnormal,1,0.9968162,0.003183777
+ABNORMAL\000083 (6)_8.jpg,Abnormal,1,Abnormal,1,0.99469435,0.0053056637
+ABNORMAL\000083 (7)_11.jpg,Abnormal,1,Abnormal,1,0.99976766,0.00023231753
+ABNORMAL\000083 (7)_3.jpg,Abnormal,1,Abnormal,1,0.9920507,0.007949294
+ABNORMAL\000083 (7)_7.jpg,Abnormal,1,Abnormal,1,0.9961113,0.0038887227
+ABNORMAL\000083 (7)_9.jpg,Abnormal,1,Abnormal,1,0.9956325,0.004367469
+ABNORMAL\000084 (3)_7.jpg,Abnormal,1,Abnormal,1,0.9976232,0.0023767825
+ABNORMAL\000084 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9934059,0.006594111
+ABNORMAL\000084 (5)_1.jpg,Abnormal,1,Abnormal,1,0.99321455,0.0067854375
+ABNORMAL\000084 (7)_10.jpg,Abnormal,1,Abnormal,1,0.99011385,0.009886136
+ABNORMAL\000084 (7)_11.jpg,Abnormal,1,Abnormal,1,0.9997068,0.0002931824
+ABNORMAL\000084 (7)_2.jpg,Abnormal,1,Abnormal,1,0.9944703,0.005529674
+ABNORMAL\000084 (7)_3.jpg,Abnormal,1,Abnormal,1,0.99011385,0.009886136
+ABNORMAL\000088_2.jpg,Abnormal,1,Abnormal,1,0.9991803,0.0008196789
+ABNORMAL\000089 (4)_2.jpg,Abnormal,1,Abnormal,1,0.9911991,0.008800941
+ABNORMAL\000089 (4)_4.jpg,Abnormal,1,Abnormal,1,0.9846161,0.01538387
+ABNORMAL\000090 (6)_3.jpg,Abnormal,1,Abnormal,1,0.99431044,0.005689572
+ABNORMAL\000090 (6)_8.jpg,Abnormal,1,Abnormal,1,0.9931859,0.0068141404
+ABNORMAL\000091 (5)_12.jpg,Abnormal,1,Abnormal,1,0.9916029,0.008397093
+ABNORMAL\000091 (7)_4.jpg,Abnormal,1,Abnormal,1,0.9952509,0.004749138
+ABNORMAL\000093_3.jpg,Abnormal,1,Abnormal,1,0.99562794,0.0043720463
+ABNORMAL\000093_8.jpg,Abnormal,1,Abnormal,1,0.9962248,0.0037751787
+ABNORMAL\000094 (3)_12.jpg,Abnormal,1,Abnormal,1,0.99524933,0.004750643
+ABNORMAL\000094 (3)_3.jpg,Abnormal,1,Abnormal,1,0.99524933,0.004750643
+ABNORMAL\000094 (3)_7.jpg,Abnormal,1,Abnormal,1,0.99457294,0.005427046
+ABNORMAL\000096_12.jpg,Abnormal,1,Abnormal,1,0.9949115,0.0050885035
+ABNORMAL\000096_9.jpg,Abnormal,1,Abnormal,1,0.9990341,0.0009659064
+ABNORMAL\000099 (3)_12.jpg,Abnormal,1,Abnormal,1,0.9953153,0.0046847076
+ABNORMAL\000100 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9815065,0.018493455
+ABNORMAL\000101 (3)_11.jpg,Abnormal,1,Abnormal,1,0.99967647,0.0003235633
+ABNORMAL\000103_1.jpg,Abnormal,1,Abnormal,1,0.9978536,0.0021464117
+ABNORMAL\000103_11.jpg,Abnormal,1,Abnormal,1,0.99908143,0.0009185904
+ABNORMAL\000103_9.jpg,Abnormal,1,Abnormal,1,0.9988909,0.0011091226
+ABNORMAL\000105 (5)_10.jpg,Abnormal,1,Abnormal,1,0.99505925,0.004940725
+ABNORMAL\000105 (7)_10.jpg,Abnormal,1,Abnormal,1,0.99452835,0.0054716403
+ABNORMAL\000105 (7)_2.jpg,Abnormal,1,Abnormal,1,0.99534935,0.00465064
+ABNORMAL\000106 (3)_7.jpg,Abnormal,1,Abnormal,1,0.997237,0.0027629973
+ABNORMAL\000106 (3)_9.jpg,Abnormal,1,Abnormal,1,0.9993871,0.0006129266
+ABNORMAL\000106 (4)_4.jpg,Abnormal,1,Abnormal,1,0.9948841,0.0051159137
+ABNORMAL\000106 (4)_8.jpg,Abnormal,1,Abnormal,1,0.9989579,0.0010421149
+ABNORMAL\000106 (4)_9.jpg,Abnormal,1,Abnormal,1,0.99897236,0.0010276479
+ABNORMAL\000106 (5)_2.jpg,Abnormal,1,Abnormal,1,0.9838534,0.0161466
+ABNORMAL\000106 (7)_7.jpg,Abnormal,1,Abnormal,1,0.9944719,0.0055280793
+ABNORMAL\000120 (4)_1.jpg,Abnormal,1,Abnormal,1,0.9957868,0.0042132162
+ABNORMAL\000120 (6)_11.jpg,Abnormal,1,Abnormal,1,0.9965781,0.0034219231
+ABNORMAL\000120 (6)_12.jpg,Abnormal,1,Abnormal,1,0.99413574,0.0058642435
+ABNORMAL\000121 (2)_2.jpg,Abnormal,1,Abnormal,1,0.9982402,0.0017598238
+ABNORMAL\000121 (2)_4.jpg,Abnormal,1,Abnormal,1,0.9953118,0.0046882057
+ABNORMAL\000122_3.jpg,Abnormal,1,Abnormal,1,0.99585366,0.004146354
+ABNORMAL\sq1_10.jpg,Abnormal,1,Abnormal,1,0.99131227,0.008687713
+ABNORMAL\sq1_3.jpg,Abnormal,1,Abnormal,1,0.99131227,0.008687713
+ABNORMAL\sq2_10.jpg,Abnormal,1,Abnormal,1,0.99987113,0.00012885209
+ABNORMAL\sq2_2.jpg,Abnormal,1,Abnormal,1,0.9960505,0.00394955
+ABNORMAL\sq2_7.jpg,Abnormal,1,Abnormal,1,0.99953467,0.0004653202
+ABNORMAL\sq3_7.jpg,Abnormal,1,Abnormal,1,0.60365534,0.3963447
+ABNORMAL\sq4_1.jpg,Abnormal,1,Abnormal,1,0.71226287,0.2877371
+ABNORMAL\sq4_3.jpg,Abnormal,1,Abnormal,1,0.71226287,0.2877371
+ABNORMAL\sq4_9.jpg,Abnormal,1,Abnormal,1,0.7889714,0.21102858
+ABNORMAL\sq5_3.jpg,Abnormal,1,Abnormal,1,0.98596483,0.014035138
+ABNORMAL\sq5_7.jpg,Abnormal,1,Abnormal,1,0.9960893,0.003910709
+ABNORMAL\sq6_2.jpg,Abnormal,1,Abnormal,1,0.9777602,0.022239788
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000008 (10)_12.jpg,Abnormal,1,Abnormal,1,0.9934735,0.0065265386
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000008 (10)_2.jpg,Abnormal,1,Abnormal,1,0.995867,0.0041329744
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000009 (3)_1.jpg,Abnormal,1,Abnormal,1,0.996087,0.003912987
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000009 (3)_7.jpg,Abnormal,1,Abnormal,1,0.9950862,0.0049138293
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000009 (7)_10.jpg,Abnormal,1,Abnormal,1,0.99759126,0.0024087399
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000013 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9952559,0.004744119
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (10)_12.jpg,Abnormal,1,Abnormal,1,0.9966811,0.0033189002
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (10)_7.jpg,Abnormal,1,Abnormal,1,0.9968312,0.0031687915
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (10)_9.jpg,Abnormal,1,Abnormal,1,0.98612666,0.013873313
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (4)_4.jpg,Abnormal,1,Abnormal,1,0.98015434,0.01984567
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (4)_7.jpg,Abnormal,1,Abnormal,1,0.98875487,0.01124515
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000015 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9986733,0.0013266907
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000016 (9)_12.jpg,Abnormal,1,Abnormal,1,0.9717699,0.028230079
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000017 (6)_11.jpg,Abnormal,1,Abnormal,1,0.99801534,0.001984655
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000017 (6)_2.jpg,Abnormal,1,Abnormal,1,0.9882875,0.011712511
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000019 (5)_4.jpg,Abnormal,1,Abnormal,1,0.9941286,0.005871431
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000020 (6)_8.jpg,Abnormal,1,Abnormal,1,0.9892377,0.010762279
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000021 (3)_10.jpg,Abnormal,1,Abnormal,1,0.99322176,0.00677822
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000021 (3)_7.jpg,Abnormal,1,Abnormal,1,0.99011475,0.00988524
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000021 (4)_1.jpg,Abnormal,1,Abnormal,1,0.9964453,0.0035546855
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000021 (5)_11.jpg,Abnormal,1,Abnormal,1,0.99963486,0.00036516355
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000021 (6)_9.jpg,Abnormal,1,Abnormal,1,0.99903095,0.0009690505
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (10)_2.jpg,Abnormal,1,Abnormal,1,0.9883785,0.011621471
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (2)_11.jpg,Abnormal,1,Abnormal,1,0.9991921,0.00080788485
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (2)_3.jpg,Abnormal,1,Abnormal,1,0.99544865,0.004551369
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (2)_8.jpg,Abnormal,1,Abnormal,1,0.99678856,0.0032114203
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (8)_1.jpg,Abnormal,1,Abnormal,1,0.9940922,0.005907803
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (8)_2.jpg,Abnormal,1,Abnormal,1,0.9970918,0.002908191
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (8)_8.jpg,Abnormal,1,Abnormal,1,0.9876438,0.012356195
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (9)_12.jpg,Abnormal,1,Abnormal,1,0.9900715,0.009928526
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022 (9)_2.jpg,Abnormal,1,Abnormal,1,0.99356574,0.0064342353
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000022_3.jpg,Abnormal,1,Abnormal,1,0.9948376,0.0051624123
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (5)_2.jpg,Abnormal,1,Abnormal,1,0.99631363,0.0036863745
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (5)_9.jpg,Abnormal,1,Abnormal,1,0.99840146,0.0015985408
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (7)_12.jpg,Abnormal,1,Abnormal,1,0.9876917,0.012308314
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (7)_4.jpg,Abnormal,1,Abnormal,1,0.9906909,0.0093091065
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (9)_11.jpg,Abnormal,1,Abnormal,1,0.9911552,0.008844783
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000023 (9)_9.jpg,Abnormal,1,Abnormal,1,0.9887144,0.011285606
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000024 (10)_11.jpg,Abnormal,1,Abnormal,1,0.99941045,0.0005895259
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000025 (6)_11.jpg,Abnormal,1,Abnormal,1,0.997199,0.0028010083
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000025 (6)_3.jpg,Abnormal,1,Abnormal,1,0.99231625,0.0076837717
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000026 (3)_2.jpg,Abnormal,1,Abnormal,1,0.99302936,0.0069706533
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000026 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9960353,0.003964721
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000026 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9956348,0.0043651974
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000027 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9894807,0.010519319
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000027 (6)_7.jpg,Abnormal,1,Abnormal,1,0.9978722,0.0021278262
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000032 (8)_8.jpg,Abnormal,1,Abnormal,1,0.9915646,0.00843541
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000034 (6)_8.jpg,Abnormal,1,Abnormal,1,0.99899906,0.0010009162
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000034 (6)_9.jpg,Abnormal,1,Abnormal,1,0.99928,0.00072000397
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000040 (3)_4.jpg,Abnormal,1,Abnormal,1,0.99781054,0.0021894763
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000041 (4)_9.jpg,Abnormal,1,Abnormal,1,0.999505,0.00049501524
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000041 (7)_10.jpg,Abnormal,1,Abnormal,1,0.9915324,0.00846763
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000042 (10)_1.jpg,Abnormal,1,Abnormal,1,0.995004,0.0049960064
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000042 (10)_11.jpg,Abnormal,1,Abnormal,1,0.9987855,0.0012144893
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000044 (9)_12.jpg,Abnormal,1,Abnormal,1,0.99939466,0.0006053255
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000044 (9)_7.jpg,Abnormal,1,Abnormal,1,0.99911493,0.000885097
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000046 (5)_4.jpg,Abnormal,1,Abnormal,1,0.99377644,0.006223539
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000048 (8)_12.jpg,Abnormal,1,Abnormal,1,0.99494135,0.005058642
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000048 (8)_7.jpg,Abnormal,1,Abnormal,1,0.9939615,0.0060385065
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000049 (9)_11.jpg,Abnormal,1,Abnormal,1,0.91823256,0.08176741
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000049 (9)_3.jpg,Abnormal,1,Abnormal,1,0.99594766,0.004052345
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000050 (3)_9.jpg,Abnormal,1,Abnormal,1,0.9997189,0.00028107117
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000050 (7)_9.jpg,Abnormal,1,Abnormal,1,0.9940771,0.005922914
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000051 (3)_4.jpg,Abnormal,1,Abnormal,1,0.99592716,0.0040728603
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000054 (7)_12.jpg,Abnormal,1,Abnormal,1,0.9951908,0.0048092296
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000054_1.jpg,Abnormal,1,Abnormal,1,0.99423915,0.005760843
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000054_11.jpg,Abnormal,1,Abnormal,1,0.99977386,0.0002261681
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000054_7.jpg,Abnormal,1,Abnormal,1,0.99666005,0.0033399293
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000056 (7)_9.jpg,Abnormal,1,Abnormal,1,0.98427624,0.01572374
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000057_11.jpg,Abnormal,1,Abnormal,1,0.99948466,0.00051532313
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000058 (4)_12.jpg,Abnormal,1,Abnormal,1,0.99888086,0.0011191277
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000058 (4)_2.jpg,Abnormal,1,Abnormal,1,0.9980227,0.0019773017
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000058 (4)_8.jpg,Abnormal,1,Abnormal,1,0.9920593,0.007940694
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000058 (5)_10.jpg,Abnormal,1,Abnormal,1,0.99520767,0.004792339
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000059 (7)_7.jpg,Abnormal,1,Abnormal,1,0.9964636,0.0035363883
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000063 (3)_9.jpg,Abnormal,1,Abnormal,1,0.99210936,0.007890626
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000063 (5)_1.jpg,Abnormal,1,Abnormal,1,0.9939127,0.0060872748
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000063 (5)_2.jpg,Abnormal,1,Abnormal,1,0.99583656,0.0041634636
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000063 (5)_3.jpg,Abnormal,1,Abnormal,1,0.9939127,0.0060872748
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000063 (7)_11.jpg,Abnormal,1,Abnormal,1,0.86515427,0.13484572
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000065 (3)_1.jpg,Abnormal,1,Abnormal,1,0.9956148,0.0043851915
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000065 (8)_3.jpg,Abnormal,1,Abnormal,1,0.9974237,0.0025762834
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000065 (9)_1.jpg,Abnormal,1,Abnormal,1,0.99470085,0.0052991402
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000066 (9)_7.jpg,Abnormal,1,Abnormal,1,0.9871243,0.012875669
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000066 (9)_8.jpg,Abnormal,1,Abnormal,1,0.99588704,0.004112942
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000067 (10)_12.jpg,Abnormal,1,Abnormal,1,0.9963963,0.0036036905
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000067 (10)_8.jpg,Abnormal,1,Abnormal,1,0.9876685,0.012331476
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000068 (10)_10.jpg,Abnormal,1,Abnormal,1,0.9880746,0.0119254235
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000068 (3)_1.jpg,Abnormal,1,Abnormal,1,0.9954733,0.0045266734
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000068 (3)_12.jpg,Abnormal,1,Abnormal,1,0.9954733,0.0045266734
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000068 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9954733,0.0045266734
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000068 (9)_10.jpg,Abnormal,1,Abnormal,1,0.99200696,0.0079930285
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000069 (6)_1.jpg,Abnormal,1,Abnormal,1,0.9934147,0.006585277
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000069 (6)_12.jpg,Abnormal,1,Abnormal,1,0.9934147,0.006585277
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000069 (6)_2.jpg,Abnormal,1,Abnormal,1,0.9871127,0.012887292
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000071 (3)_11.jpg,Abnormal,1,Abnormal,1,0.99952674,0.0004732589
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000074 (5)_12.jpg,Abnormal,1,Abnormal,1,0.9889319,0.011068078
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000077 (6)_12.jpg,Abnormal,1,Abnormal,1,0.9958666,0.0041334126
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000077 (6)_7.jpg,Abnormal,1,Abnormal,1,0.9893862,0.010613791
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000077 (9)_2.jpg,Abnormal,1,Abnormal,1,0.99017483,0.009825165
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000078 (6)_3.jpg,Abnormal,1,Abnormal,1,0.9959377,0.0040622666
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000079 (6)_11.jpg,Abnormal,1,Abnormal,1,0.9991803,0.00081967574
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000079 (6)_2.jpg,Abnormal,1,Abnormal,1,0.99868935,0.001310654
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000080 (10)_3.jpg,Abnormal,1,Abnormal,1,0.992535,0.0074649807
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000081 (2)_9.jpg,Abnormal,1,Abnormal,1,0.9958189,0.004181108
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000083 (3)_12.jpg,Abnormal,1,Abnormal,1,0.9985172,0.0014827825
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000083 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9985172,0.0014827825
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000083 (3)_9.jpg,Abnormal,1,Abnormal,1,0.99812615,0.0018738448
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000084 (2)_10.jpg,Abnormal,1,Abnormal,1,0.9940153,0.0059847194
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000084 (2)_2.jpg,Abnormal,1,Abnormal,1,0.9968675,0.0031325223
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000084 (3)_12.jpg,Abnormal,1,Abnormal,1,0.9928632,0.00713682
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000084 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9946956,0.0053044106
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000085 (10)_9.jpg,Abnormal,1,Abnormal,1,0.98378545,0.016214566
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000085 (4)_3.jpg,Abnormal,1,Abnormal,1,0.9929003,0.007099711
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000085 (7)_2.jpg,Abnormal,1,Abnormal,1,0.9921968,0.007803205
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000085 (7)_3.jpg,Abnormal,1,Abnormal,1,0.9944405,0.0055595106
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000085 (7)_8.jpg,Abnormal,1,Abnormal,1,0.9936146,0.0063853785
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000086 (8)_1.jpg,Abnormal,1,Abnormal,1,0.9897481,0.010251902
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (4)_12.jpg,Abnormal,1,Abnormal,1,0.99177855,0.008221431
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (4)_2.jpg,Abnormal,1,Abnormal,1,0.998379,0.0016209878
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (4)_3.jpg,Abnormal,1,Abnormal,1,0.99177855,0.008221431
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9893659,0.010634099
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (4)_8.jpg,Abnormal,1,Abnormal,1,0.990521,0.00947896
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (8)_7.jpg,Abnormal,1,Abnormal,1,0.99619067,0.0038093154
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000087 (8)_9.jpg,Abnormal,1,Abnormal,1,0.99805766,0.0019423475
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000089 (8)_3.jpg,Abnormal,1,Abnormal,1,0.99837005,0.0016299558
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000089 (8)_7.jpg,Abnormal,1,Abnormal,1,0.9980006,0.0019993493
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000090 (2)_11.jpg,Abnormal,1,Abnormal,1,0.99031687,0.009683112
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000091 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9968796,0.0031203954
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000091 (3)_3.jpg,Abnormal,1,Abnormal,1,0.98897815,0.011021858
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000091_12.jpg,Abnormal,1,Abnormal,1,0.9882937,0.011706286
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000091_7.jpg,Abnormal,1,Abnormal,1,0.98882484,0.01117517
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000091_8.jpg,Abnormal,1,Abnormal,1,0.9936402,0.006359806
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000092 (10)_7.jpg,Abnormal,1,Abnormal,1,0.99572855,0.004271452
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000092 (10)_8.jpg,Abnormal,1,Abnormal,1,0.9945989,0.0054010823
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000093 (10)_4.jpg,Abnormal,1,Abnormal,1,0.99355257,0.0064474177
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000093 (4)_1.jpg,Abnormal,1,Abnormal,1,0.9973568,0.002643219
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000093 (6)_8.jpg,Abnormal,1,Abnormal,1,0.9935494,0.006450583
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000095_11.jpg,Abnormal,1,Abnormal,1,0.9997355,0.000264501
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000095_4.jpg,Abnormal,1,Abnormal,1,0.99442434,0.0055756727
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000096 (7)_3.jpg,Abnormal,1,Abnormal,1,0.9970439,0.0029561063
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000097 (10)_4.jpg,Abnormal,1,Abnormal,1,0.9883481,0.0116518475
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000097 (3)_7.jpg,Abnormal,1,Abnormal,1,0.9896498,0.010350237
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000097 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9983123,0.0016877198
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000099 (7)_11.jpg,Abnormal,1,Abnormal,1,0.9994761,0.00052394276
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000100 (10)_7.jpg,Abnormal,1,Abnormal,1,0.96170217,0.03829783
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102 (2)_4.jpg,Abnormal,1,Abnormal,1,0.98798573,0.012014265
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102 (7)_1.jpg,Abnormal,1,Abnormal,1,0.9956328,0.004367183
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102 (7)_2.jpg,Abnormal,1,Abnormal,1,0.9948699,0.0051301094
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102 (7)_3.jpg,Abnormal,1,Abnormal,1,0.9956328,0.004367183
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102 (7)_7.jpg,Abnormal,1,Abnormal,1,0.98980975,0.010190238
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000102_8.jpg,Abnormal,1,Abnormal,1,0.9891078,0.010892197
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000103 (9)_1.jpg,Abnormal,1,Abnormal,1,0.99526477,0.004735252
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000103 (9)_3.jpg,Abnormal,1,Abnormal,1,0.99526477,0.004735252
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000104 (4)_3.jpg,Abnormal,1,Abnormal,1,0.9948772,0.0051227743
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000106 (4)_3.jpg,Abnormal,1,Abnormal,1,0.9840185,0.015981505
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000106 (4)_8.jpg,Abnormal,1,Abnormal,1,0.9982747,0.0017253433
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000106 (8)_7.jpg,Abnormal,1,Abnormal,1,0.99608594,0.003914084
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000107 (9)_12.jpg,Abnormal,1,Abnormal,1,0.9884103,0.011589698
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000107 (9)_9.jpg,Abnormal,1,Abnormal,1,0.99736744,0.0026325753
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000118 (4)_1.jpg,Abnormal,1,Abnormal,1,0.99919885,0.00080114056
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000118 (4)_4.jpg,Abnormal,1,Abnormal,1,0.99955416,0.00044585226
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000118 (4)_7.jpg,Abnormal,1,Abnormal,1,0.99883723,0.0011627442
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000119 (10)_1.jpg,Abnormal,1,Abnormal,1,0.99691945,0.0030805203
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000119 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9971222,0.0028777998
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000119 (5)_1.jpg,Abnormal,1,Abnormal,1,0.9937293,0.006270708
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000119 (5)_7.jpg,Abnormal,1,Abnormal,1,0.9895719,0.010428042
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000119 (6)_9.jpg,Abnormal,1,Abnormal,1,0.9994174,0.00058258954
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121 (10)_7.jpg,Abnormal,1,Abnormal,1,0.99707335,0.002926639
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121 (9)_10.jpg,Abnormal,1,Abnormal,1,0.98743254,0.012567463
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121_10.jpg,Abnormal,1,Abnormal,1,0.9867523,0.013247712
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121_12.jpg,Abnormal,1,Abnormal,1,0.9867523,0.013247712
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121_2.jpg,Abnormal,1,Abnormal,1,0.9843417,0.015658299
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000121_4.jpg,Abnormal,1,Abnormal,1,0.9910732,0.008926827
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\000122_3.jpg,Abnormal,1,Abnormal,1,0.9971944,0.0028056193
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad10_12.jpg,Abnormal,1,Abnormal,1,0.99001443,0.009985555
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad11_2.jpg,Abnormal,1,Abnormal,1,0.97974503,0.02025497
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad11_9.jpg,Abnormal,1,Abnormal,1,0.9950733,0.0049266745
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad12_10.jpg,Abnormal,1,Abnormal,1,0.9985183,0.0014817113
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad12_12.jpg,Abnormal,1,Abnormal,1,0.9985183,0.0014817113
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad13_9.jpg,Abnormal,1,Abnormal,1,0.9668862,0.033113766
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad14_12.jpg,Abnormal,1,Abnormal,1,0.9997428,0.00025717483
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad14_8.jpg,Abnormal,1,Abnormal,1,0.9666785,0.033321474
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad15_10.jpg,Abnormal,1,Abnormal,1,0.6180818,0.3819182
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad15_3.jpg,Abnormal,1,Abnormal,1,0.6180818,0.3819182
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad16_3.jpg,Abnormal,1,Abnormal,1,0.9999963,3.7137079e-06
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad17_1.jpg,Abnormal,1,Abnormal,1,0.9979254,0.0020745932
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad17_11.jpg,Abnormal,1,Abnormal,1,0.96477056,0.035229445
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad17_12.jpg,Abnormal,1,Abnormal,1,0.9979254,0.0020745932
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad17_3.jpg,Abnormal,1,Abnormal,1,0.9979254,0.0020745932
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad18_9.jpg,Abnormal,1,Abnormal,1,0.73711383,0.26288614
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad19_8.jpg,Abnormal,1,Normal,0,0.25642645,0.74357355
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad3_2.jpg,Abnormal,1,Abnormal,1,0.9998743,0.00012571995
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad3_4.jpg,Abnormal,1,Abnormal,1,0.99975723,0.00024274031
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad3_8.jpg,Abnormal,1,Abnormal,1,0.7313137,0.26868632
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad4_8.jpg,Abnormal,1,Abnormal,1,0.93409216,0.065907806
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad5_9.jpg,Abnormal,1,Abnormal,1,0.92176294,0.07823705
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad7_1.jpg,Abnormal,1,Abnormal,1,0.9532354,0.046764597
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad8_12.jpg,Abnormal,1,Abnormal,1,0.99862283,0.0013771749
+ABNORMAL\adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib\ad9_4.jpg,Abnormal,1,Abnormal,1,0.8899283,0.1100717
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000002_1.jpg,Abnormal,1,Abnormal,1,0.9972579,0.002742132
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000002_11.jpg,Abnormal,1,Abnormal,1,0.9976485,0.0023515518
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000003 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9964817,0.0035183057
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000003 (3)_9.jpg,Abnormal,1,Abnormal,1,0.99530405,0.0046959445
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000003 (4)_12.jpg,Abnormal,1,Abnormal,1,0.99703443,0.00296556
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000009 (3)_1.jpg,Abnormal,1,Abnormal,1,0.99486965,0.005130369
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000009 (3)_12.jpg,Abnormal,1,Abnormal,1,0.99486965,0.005130369
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000009 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9963005,0.003699466
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000010_11.jpg,Abnormal,1,Abnormal,1,0.99952865,0.000471368
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000010_8.jpg,Abnormal,1,Abnormal,1,0.99559045,0.004409552
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000015_12.jpg,Abnormal,1,Abnormal,1,0.99446005,0.0055399723
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000016 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9958743,0.004125696
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000016 (4)_12.jpg,Abnormal,1,Abnormal,1,0.99086535,0.009134636
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000017_12.jpg,Abnormal,1,Abnormal,1,0.996854,0.0031459716
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000018 (2)_7.jpg,Abnormal,1,Abnormal,1,0.9923619,0.007638107
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000019 (3)_7.jpg,Abnormal,1,Abnormal,1,0.9916786,0.008321416
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000019 (4)_10.jpg,Abnormal,1,Abnormal,1,0.995427,0.004572987
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000020 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9930928,0.0069072125
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000020 (4)_11.jpg,Abnormal,1,Abnormal,1,0.997163,0.0028370144
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000020 (4)_7.jpg,Abnormal,1,Abnormal,1,0.99167496,0.0083250115
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000021_8.jpg,Abnormal,1,Abnormal,1,0.9957743,0.004225674
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000024 (2)_9.jpg,Abnormal,1,Abnormal,1,0.99875,0.0012500518
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000026 (2)_2.jpg,Abnormal,1,Abnormal,1,0.9743429,0.025657143
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000026 (2)_8.jpg,Abnormal,1,Abnormal,1,0.9930709,0.0069291163
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000027 (2)_10.jpg,Abnormal,1,Abnormal,1,0.9941691,0.0058309073
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000027 (2)_8.jpg,Abnormal,1,Abnormal,1,0.9960709,0.0039290907
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000027 (2)_9.jpg,Abnormal,1,Abnormal,1,0.9902752,0.00972482
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000031 (2)_1.jpg,Abnormal,1,Abnormal,1,0.9920771,0.007922917
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000031_4.jpg,Abnormal,1,Abnormal,1,0.998338,0.0016620044
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000032_11.jpg,Abnormal,1,Abnormal,1,0.98332494,0.016675059
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000033 (4)_7.jpg,Abnormal,1,Abnormal,1,0.99072945,0.009270523
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000033 (4)_9.jpg,Abnormal,1,Abnormal,1,0.9990179,0.0009820805
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000034 (2)_11.jpg,Abnormal,1,Abnormal,1,0.99785244,0.002147558
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000039 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9963457,0.003654304
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000039 (4)_1.jpg,Abnormal,1,Abnormal,1,0.99485123,0.0051487796
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000039 (4)_2.jpg,Abnormal,1,Abnormal,1,0.99730843,0.0026915737
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000039 (4)_4.jpg,Abnormal,1,Abnormal,1,0.9875012,0.012498772
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000041 (4)_8.jpg,Abnormal,1,Abnormal,1,0.9937529,0.0062470906
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000041_8.jpg,Abnormal,1,Abnormal,1,0.9296862,0.07031379
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000042 (2)_2.jpg,Abnormal,1,Abnormal,1,0.99519193,0.004808048
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000042 (2)_4.jpg,Abnormal,1,Abnormal,1,0.99082434,0.009175668
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000045_11.jpg,Abnormal,1,Abnormal,1,0.99962795,0.0003720579
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000045_9.jpg,Abnormal,1,Abnormal,1,0.9957605,0.004239519
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000046_10.jpg,Abnormal,1,Abnormal,1,0.99899745,0.0010025697
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000046_4.jpg,Abnormal,1,Abnormal,1,0.99977267,0.00022730633
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000047 (2)_7.jpg,Abnormal,1,Abnormal,1,0.99644387,0.0035561398
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000051_12.jpg,Abnormal,1,Abnormal,1,0.99263793,0.0073620644
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000055 (3)_4.jpg,Abnormal,1,Abnormal,1,0.9978764,0.002123568
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000055 (4)_1.jpg,Abnormal,1,Abnormal,1,0.99530673,0.0046932637
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000055_4.jpg,Abnormal,1,Abnormal,1,0.9963986,0.003601352
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000055_7.jpg,Abnormal,1,Abnormal,1,0.9946683,0.0053316928
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000055_9.jpg,Abnormal,1,Abnormal,1,0.997528,0.0024719976
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000056 (3)_3.jpg,Abnormal,1,Abnormal,1,0.9908322,0.009167789
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000056 (4)_2.jpg,Abnormal,1,Abnormal,1,0.9952359,0.0047640563
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000056 (4)_7.jpg,Abnormal,1,Abnormal,1,0.98853624,0.011463788
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000057 (3)_2.jpg,Abnormal,1,Abnormal,1,0.9936171,0.0063828565
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000057 (3)_7.jpg,Abnormal,1,Abnormal,1,0.99145454,0.008545484
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000057 (3)_8.jpg,Abnormal,1,Abnormal,1,0.9983716,0.0016283969
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000057_12.jpg,Abnormal,1,Abnormal,1,0.99754065,0.0024593265
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000057_4.jpg,Abnormal,1,Abnormal,1,0.99792516,0.0020748235
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000058 (4)_10.jpg,Abnormal,1,Abnormal,1,0.99610865,0.0038913758
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000059 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9953105,0.0046895077
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000059 (3)_2.jpg,Abnormal,1,Abnormal,1,0.9907986,0.009201384
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000059 (3)_7.jpg,Abnormal,1,Abnormal,1,0.99564147,0.0043585417
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000060_11.jpg,Abnormal,1,Abnormal,1,0.99935824,0.00064176717
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000062 (3)_10.jpg,Abnormal,1,Abnormal,1,0.99779665,0.0022033562
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000062 (3)_7.jpg,Abnormal,1,Abnormal,1,0.99771523,0.0022847487
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000062 (4)_12.jpg,Abnormal,1,Abnormal,1,0.9959788,0.0040212325
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000062 (4)_9.jpg,Abnormal,1,Abnormal,1,0.99837136,0.0016286419
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000063 (2)_1.jpg,Abnormal,1,Abnormal,1,0.99333555,0.0066644815
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000063_4.jpg,Abnormal,1,Abnormal,1,0.99584365,0.0041563287
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000065 (2)_8.jpg,Abnormal,1,Abnormal,1,0.9994377,0.00056230795
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000066 (2)_9.jpg,Abnormal,1,Abnormal,1,0.9991963,0.00080373307
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000066_12.jpg,Abnormal,1,Abnormal,1,0.9910751,0.008924887
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000069_1.jpg,Abnormal,1,Abnormal,1,0.996739,0.0032610123
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000071 (2)_1.jpg,Abnormal,1,Abnormal,1,0.9891761,0.01082392
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000071 (2)_11.jpg,Abnormal,1,Abnormal,1,0.99854094,0.0014590785
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000071 (2)_4.jpg,Abnormal,1,Abnormal,1,0.98904496,0.010955009
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000072 (2)_1.jpg,Abnormal,1,Abnormal,1,0.9932922,0.0067077694
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000073 (2)_1.jpg,Abnormal,1,Abnormal,1,0.99363065,0.0063693286
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000073 (2)_10.jpg,Abnormal,1,Abnormal,1,0.99363065,0.0063693286
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000076 (3)_10.jpg,Abnormal,1,Abnormal,1,0.98585397,0.014146055
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000076 (3)_2.jpg,Abnormal,1,Abnormal,1,0.99268425,0.0073157386
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000076 (3)_7.jpg,Abnormal,1,Abnormal,1,0.990988,0.009011962
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000076 (4)_10.jpg,Abnormal,1,Abnormal,1,0.9918823,0.0081176795
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000076 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9962102,0.003789774
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000077_10.jpg,Abnormal,1,Abnormal,1,0.9875146,0.012485402
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000078 (4)_8.jpg,Abnormal,1,Abnormal,1,0.99751127,0.002488752
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000080_10.jpg,Abnormal,1,Abnormal,1,0.99783725,0.0021627354
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000081_4.jpg,Abnormal,1,Abnormal,1,0.9847489,0.015251121
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (2)_12.jpg,Abnormal,1,Abnormal,1,0.99335015,0.0066498504
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (2)_2.jpg,Abnormal,1,Abnormal,1,0.9869098,0.013090174
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (2)_3.jpg,Abnormal,1,Abnormal,1,0.99335015,0.0066498504
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (2)_7.jpg,Abnormal,1,Abnormal,1,0.99342334,0.0065766424
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (2)_8.jpg,Abnormal,1,Abnormal,1,0.98218775,0.017812261
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (3)_11.jpg,Abnormal,1,Abnormal,1,0.9975334,0.0024666332
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (3)_2.jpg,Abnormal,1,Abnormal,1,0.9976462,0.0023537835
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (3)_9.jpg,Abnormal,1,Abnormal,1,0.9977081,0.002291944
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000094 (4)_7.jpg,Abnormal,1,Abnormal,1,0.9908489,0.009151128
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000095 (4)_11.jpg,Abnormal,1,Abnormal,1,0.9996149,0.00038511064
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000095 (4)_4.jpg,Abnormal,1,Abnormal,1,0.9968077,0.003192293
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000095_9.jpg,Abnormal,1,Abnormal,1,0.9980686,0.0019314553
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000097 (2)_3.jpg,Abnormal,1,Abnormal,1,0.9900321,0.009967912
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000097 (2)_7.jpg,Abnormal,1,Abnormal,1,0.9906856,0.009314407
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000097_11.jpg,Abnormal,1,Abnormal,1,0.9936736,0.006326388
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000098 (3)_4.jpg,Abnormal,1,Abnormal,1,0.99568903,0.0043109567
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000098 (3)_8.jpg,Abnormal,1,Abnormal,1,0.99838567,0.0016143149
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000104 (2)_8.jpg,Abnormal,1,Abnormal,1,0.9990218,0.000978191
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000104 (2)_9.jpg,Abnormal,1,Abnormal,1,0.98913836,0.010861606
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000104_2.jpg,Abnormal,1,Abnormal,1,0.99127173,0.008728242
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000104_8.jpg,Abnormal,1,Abnormal,1,0.95517796,0.044822045
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000104_9.jpg,Abnormal,1,Abnormal,1,0.9851711,0.014828911
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000105 (2)_10.jpg,Abnormal,1,Abnormal,1,0.98854434,0.011455652
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000105 (2)_11.jpg,Abnormal,1,Abnormal,1,0.995476,0.004524018
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000105 (2)_3.jpg,Abnormal,1,Abnormal,1,0.98854434,0.011455652
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000105 (2)_9.jpg,Abnormal,1,Abnormal,1,0.98477596,0.015224031
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000105_4.jpg,Abnormal,1,Abnormal,1,0.9951296,0.004870407
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000106 (2)_4.jpg,Abnormal,1,Abnormal,1,0.97376716,0.02623281
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000106 (2)_7.jpg,Abnormal,1,Abnormal,1,0.97505414,0.024945835
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000106 (2)_8.jpg,Abnormal,1,Abnormal,1,0.99084765,0.009152378
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000106_9.jpg,Abnormal,1,Abnormal,1,0.99973017,0.00026982467
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000133_12.jpg,Abnormal,1,Abnormal,1,0.9910688,0.008931194
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000143_11.jpg,Abnormal,1,Abnormal,1,0.99966216,0.00033781095
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000149_1.jpg,Abnormal,1,Abnormal,1,0.9827493,0.017250745
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000149_3.jpg,Abnormal,1,Abnormal,1,0.9827493,0.017250745
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000149_8.jpg,Abnormal,1,Abnormal,1,0.9593086,0.040691383
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000150_11.jpg,Abnormal,1,Abnormal,1,0.9960136,0.003986401
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000150_7.jpg,Abnormal,1,Abnormal,1,0.9978953,0.0021047075
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000154_3.jpg,Abnormal,1,Abnormal,1,0.994054,0.005945951
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000154_8.jpg,Abnormal,1,Abnormal,1,0.9985693,0.0014307153
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000169_3.jpg,Abnormal,1,Abnormal,1,0.9973486,0.0026513748
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000169_8.jpg,Abnormal,1,Abnormal,1,0.9942036,0.0057963463
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000172_3.jpg,Abnormal,1,Abnormal,1,0.99640536,0.0035946083
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000172_9.jpg,Abnormal,1,Abnormal,1,0.99934465,0.0006553265
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000173_10.jpg,Abnormal,1,Abnormal,1,0.9919005,0.008099509
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000173_2.jpg,Abnormal,1,Abnormal,1,0.98864275,0.0113572655
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\000173_8.jpg,Abnormal,1,Abnormal,1,0.9865881,0.013411858
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\di1_1.jpg,Abnormal,1,Abnormal,1,0.999555,0.0004450073
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\di1_11.jpg,Abnormal,1,Normal,0,0.001152873,0.9988471
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\di1_3.jpg,Abnormal,1,Abnormal,1,0.999555,0.0004450073
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\di1_7.jpg,Abnormal,1,Abnormal,1,0.9994633,0.0005367069
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\di1_8.jpg,Abnormal,1,Normal,0,0.24023789,0.7597621
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l1_11.jpg,Abnormal,1,Normal,0,0.05410844,0.94589156
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l2_1.jpg,Abnormal,1,Abnormal,1,0.99975806,0.0002419531
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l2_12.jpg,Abnormal,1,Abnormal,1,0.99975806,0.0002419531
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l3_10.jpg,Abnormal,1,Abnormal,1,0.98664534,0.013354688
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l4_4.jpg,Abnormal,1,Abnormal,1,0.95934373,0.040656272
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l4_7.jpg,Abnormal,1,Abnormal,1,0.99953467,0.0004653202
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l5_8.jpg,Abnormal,1,Abnormal,1,0.63652664,0.36347336
+ABNORMAL\large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa\l6_11.jpg,Abnormal,1,Abnormal,1,0.99949276,0.0005072155
+NORMAL\10 (2) - Copy_11.jpg,Normal,0,Normal,0,0.000107228756,0.9998928
+NORMAL\10 (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\10 - Copy (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\10 - Copy (2)_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\10 - Copy (3)_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\10 - Copy_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\10_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 (2)_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy (2) - Copy_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy (2) - Copy_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy (3)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\11 - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy (2) - Copy_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy (3)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy - Copy_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy - Copy_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12 - Copy_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\12_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 (2) - Copy_11.jpg,Normal,0,Normal,0,1.0728836e-06,0.9999989
+NORMAL\13 (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 (2)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 (2)_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 - Copy (2)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 - Copy (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 - Copy (3)_1.jpg,Normal,0,Normal,0,2.026558e-06,0.999998
+NORMAL\13 - Copy (3)_3.jpg,Normal,0,Normal,0,2.026558e-06,0.999998
+NORMAL\13 - Copy - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\13 - Copy_1.jpg,Normal,0,Normal,0,9.536743e-07,0.99999905
+NORMAL\13_10.jpg,Normal,0,Normal,0,2.026558e-06,0.999998
+NORMAL\13_12.jpg,Normal,0,Normal,0,2.026558e-06,0.999998
+NORMAL\16 (2) - Copy_11.jpg,Normal,0,Normal,0,8.201599e-05,0.999918
+NORMAL\16 (2)_9.jpg,Normal,0,Normal,0,1.7881393e-07,0.9999998
+NORMAL\16 - Copy (2) - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\16 - Copy (2) - Copy_7.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\16 - Copy (2)_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\16 - Copy (2)_4.jpg,Normal,0,Normal,0,5.9604645e-07,0.9999994
+NORMAL\16 - Copy (2)_7.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\16 - Copy (3)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\16 - Copy (3)_9.jpg,Normal,0,Normal,0,1.7881393e-07,0.9999998
+NORMAL\16 - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy (2)_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy (2)_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy (2)_8.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy (2)_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17 - Copy_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\17_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 (2) - Copy_4.jpg,Normal,0,Normal,0,3.027916e-05,0.9999697
+NORMAL\18 (2) - Copy_9.jpg,Normal,0,Normal,0,1.847744e-06,0.99999815
+NORMAL\18 (2)_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy (2) - Copy_9.jpg,Normal,0,Normal,0,1.7881393e-07,0.9999998
+NORMAL\18 - Copy (2)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy (2)_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy (3)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy (3)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy (3)_8.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\18 - Copy - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\18 - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\19 (2) - Copy_10.jpg,Normal,0,Normal,0,7.748604e-07,0.9999992
+NORMAL\19 (2)_1.jpg,Normal,0,Normal,0,7.748604e-07,0.9999992
+NORMAL\19 - Copy (2) - Copy_4.jpg,Normal,0,Normal,0,5.364418e-07,0.99999946
+NORMAL\19 - Copy (2)_11.jpg,Normal,0,Normal,0,0.0005272627,0.99947274
+NORMAL\19 - Copy (2)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\19 - Copy (3)_3.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\19 - Copy - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\19 - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\19 - Copy_4.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\19 - Copy_9.jpg,Normal,0,Normal,0,2.4437904e-06,0.99999756
+NORMAL\19_11.jpg,Normal,0,Normal,0,1.013279e-05,0.99998987
+NORMAL\19_12.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\19_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\19_3.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\2 (2)_3.jpg,Normal,0,Normal,0,1.7523766e-05,0.9999825
+NORMAL\2 - Copy (2) - Copy_11.jpg,Normal,0,Normal,0,5.364418e-07,0.99999946
+NORMAL\2 - Copy (2)_9.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\2 - Copy - Copy_4.jpg,Normal,0,Normal,0,3.0398369e-06,0.99999696
+NORMAL\2 - Copy - Copy_9.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\20 (2)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\20 (2)_4.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\20 - Copy (3)_4.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\20 - Copy - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\20 - Copy - Copy_9.jpg,Normal,0,Normal,0,4.094839e-05,0.99995905
+NORMAL\20 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\20 - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\20 - Copy_8.jpg,Normal,0,Normal,0,0.007245004,0.992755
+NORMAL\20 - Copy_9.jpg,Normal,0,Normal,0,4.094839e-05,0.99995905
+NORMAL\21 - Copy (2) - Copy_8.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\21 - Copy (2)_1.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\21 - Copy - Copy_10.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\21 - Copy - Copy_12.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\21 - Copy_11.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\2_11.jpg,Normal,0,Normal,0,5.364418e-07,0.99999946
+NORMAL\2_7.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\3 (2) - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\3 (2)_2.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\3 - Copy (2) - Copy_11.jpg,Normal,0,Normal,0,0.00042569637,0.9995743
+NORMAL\3 - Copy (2)_7.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\3 - Copy (3)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\3 - Copy (3)_2.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\3 - Copy - Copy_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\3 - Copy - Copy_4.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\3 - Copy - Copy_8.jpg,Normal,0,Normal,0,0.00016862154,0.9998314
+NORMAL\3 - Copy_7.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\3_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\3_8.jpg,Normal,0,Normal,0,0.00048166513,0.99951833
+NORMAL\4 (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 (2) - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 (2)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 (2)_4.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy (2) - Copy_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy (2)_11.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy (3)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy (3)_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4 - Copy_8.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\4_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\5 (2) - Copy_8.jpg,Normal,0,Normal,0,0.00018286705,0.99981713
+NORMAL\5 (2)_7.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\5 (2)_9.jpg,Normal,0,Normal,0,0.0007520914,0.9992479
+NORMAL\5 - Copy (2) - Copy_7.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\5 - Copy (2)_2.jpg,Normal,0,Normal,0,1.4781952e-05,0.9999852
+NORMAL\5 - Copy (3)_12.jpg,Normal,0,Normal,0,2.4437904e-06,0.99999756
+NORMAL\5 - Copy - Copy_11.jpg,Normal,0,Normal,0,2.4795532e-05,0.9999752
+NORMAL\5 - Copy - Copy_12.jpg,Normal,0,Normal,0,2.4437904e-06,0.99999756
+NORMAL\5 - Copy_10.jpg,Normal,0,Normal,0,2.4437904e-06,0.99999756
+NORMAL\5_12.jpg,Normal,0,Normal,0,2.4437904e-06,0.99999756
+NORMAL\6 (2) - Copy_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 (2) - Copy_7.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\6 - Copy (2)_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy (2)_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy (3)_9.jpg,Normal,0,Normal,0,1.7881393e-07,0.9999998
+NORMAL\6 - Copy - Copy_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\6 - Copy_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\7 (2) - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\7 (2) - Copy_9.jpg,Normal,0,Normal,0,0.00022381544,0.9997762
+NORMAL\7 - Copy (2) - Copy_12.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\7 - Copy (2)_10.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\7 - Copy (2)_7.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\7 - Copy (3)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\7 - Copy (3)_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\7 - Copy - Copy_12.jpg,Normal,0,Normal,0,4.172325e-07,0.9999996
+NORMAL\7_4.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\8 (2) - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 (2) - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 (2)_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 (2)_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 (2)_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (2) - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (2) - Copy_7.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (2) - Copy_8.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (2)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (2)_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (3)_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (3)_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy (3)_8.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy - Copy_9.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy_1.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8 - Copy_8.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\8_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n6 (2)_8.jpg,Normal,0,Normal,0,0.00022220612,0.9997778
+NORMAL\n6 - Copy_1.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\n6 - Copy_10.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\n6_9.jpg,Normal,0,Normal,0,5.26309e-05,0.99994737
+NORMAL\n7 (2) - Copy_1.jpg,Normal,0,Normal,0,7.748604e-07,0.9999992
+NORMAL\n7 (2) - Copy_11.jpg,Normal,0,Normal,0,0.011088908,0.9889111
+NORMAL\n7 (2)_11.jpg,Normal,0,Normal,0,0.011088908,0.9889111
+NORMAL\n7 (2)_2.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\n7 (2)_8.jpg,Normal,0,Normal,0,0.16845006,0.83154994
+NORMAL\n7 - Copy_2.jpg,Normal,0,Normal,0,5.9604645e-08,0.99999994
+NORMAL\n7 - Copy_7.jpg,Normal,0,Normal,0,1.847744e-06,0.99999815
+NORMAL\n7 - Copy_8.jpg,Normal,0,Normal,0,0.16845006,0.83154994
+NORMAL\n8 (2)_3.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n8 - Copy_10.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n8 - Copy_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n8 - Copy_2.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n8 - Copy_7.jpg,Normal,0,Normal,0,1.1920929e-07,0.9999999
+NORMAL\n8_12.jpg,Normal,0,Normal,0,0.0,1.0
+NORMAL\n9 (2)_1.jpg,Normal,0,Normal,0,0.0010410547,0.99895895
+NORMAL\n9 (2)_10.jpg,Normal,0,Normal,0,0.0010410547,0.99895895
+NORMAL\n9 (2)_12.jpg,Normal,0,Normal,0,0.0010410547,0.99895895
+NORMAL\n9 (2)_2.jpg,Normal,0,Normal,0,0.00021773577,0.99978226
+NORMAL\n9 - Copy_2.jpg,Normal,0,Normal,0,0.00021773577,0.99978226
+NORMAL\n9 - Copy_7.jpg,Normal,0,Normal,0,0.0006007552,0.99939924
+NORMAL\n9_12.jpg,Normal,0,Normal,0,0.0010410547,0.99895895
