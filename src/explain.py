@@ -1,6 +1,10 @@
 import os
 
+from dotenv import load_dotenv
 from google import genai
+
+# Loads a local .env file when present. Real keys must never be committed.
+load_dotenv()
 
 
 def _build_client():
@@ -12,7 +16,7 @@ def _build_client():
 
 
 def explain(prediction, score):
-    """Generate a plain-language explanation, with an offline fallback."""
+    """Generate a cautious explanation, with a local fallback."""
     prompt = f"""
 The AI medical image model returned the following screening result.
 
