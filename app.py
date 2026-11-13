@@ -1,365 +1,292 @@
-import streamlit as st
+import os
 import tempfile
+from pathlib import Path
 
-from src.predict import (
-    load_model,
-    preprocess,
-    predict_single,
-    fuse_predictions
-)
+import cv2
+import streamlit as st
 
-from src.gradcam import (
-    get_gradcam_heatmap,
-    overlay_heatmap
-)
-
+from src.predict import load_model, preprocess, predict_single, fuse_predictions
+from src.gradcam import get_gradcam_heatmap, overlay_heatmap
 from src.explain import explain
 
 
-# -----------------------------------
-# PAGE CONFIG
-# -----------------------------------
+# --------------------------------------------------
+# PAGE CONFIGURATION
+# --------------------------------------------------
 st.set_page_config(
-    page_title="Multi-Modal Lung Disease Detection",
+    page_title="Multi-Modal Lung AI",
     page_icon="🫁",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+    .stApp { background: #0b1220; color: #e5edf7; }
+    [data-testid="stSidebar"] { background: #101b2d; }
+    .hero {
+        padding: 1.7rem 1.9rem;
+        border: 1px solid #263b55;
+        border-radius: 18px;
+        background: linear-gradient(120deg, #13243a, #0e3341);
+        margin-bottom: 1.2rem;
+    }
+    .hero h1 { color: #f2f8ff; margin: 0 0 .35rem 0; }
+    .hero p { color: #a9c0d5; margin: 0; }
+    div[data-testid="stMetric"] {
+        background: #132238;
+        border: 1px solid #29415d;
+        padding: 14px;
+        border-radius: 14px;
+    }
+    .subtle { color: #9fb3c8; font-size: .9rem; }
+</style>
+""", unsafe_allow_html=True)
 
-# -----------------------------------
-# SESSION HISTORY
-# -----------------------------------
+
+# --------------------------------------------------
+# SESSION STATE
+# --------------------------------------------------
 if "history" not in st.session_state:
     st.session_state.history = []
 
+if "analysis" not in st.session_state:
+    st.session_state.analysis = None
 
-# -----------------------------------
+
+# --------------------------------------------------
 # SIDEBAR
-# -----------------------------------
+# --------------------------------------------------
 with st.sidebar:
+    st.markdown("## 🫁 Lung AI")
+    st.caption("Multi-modal imaging research interface")
+    st.divider()
 
-    st.header("System Information")
+    st.markdown("**Models**")
+    st.write("ResNet50 · Chest X-ray")
+    st.write("ResNet50 · CT scan")
 
-    st.write("### AI Models")
-    st.write("• ResNet50 - X-Ray")
-    st.write("• ResNet50 - CT Scan")
+    st.markdown("**Explainability**")
+    st.write("Grad-CAM visual maps")
+    st.write("Gemini explanation (optional)")
 
-    st.write("### Technologies")
-    st.write("• Transfer Learning")
-    st.write("• Grad-CAM")
-    st.write("• Gemini AI")
+    st.markdown("**Analysis tools**")
+    st.write("Single-image multimodal analysis")
+    st.write("Multi-slice CT analysis")
+    st.write("Model performance comparison")
 
-    st.write("### Supported Inputs")
-    st.write("• Chest X-Ray")
-    st.write("• Chest CT Scan")
-
-    st.write("---")
-
-    st.subheader("Recent Analyses")
-
-    for item in st.session_state.history[-5:]:
-        st.write(
-            f"• {item['Prediction']} ({item['Confidence']})"
-        )
+    st.divider()
+    st.markdown("**Recent analyses**")
+    if st.session_state.history:
+        for item in reversed(st.session_state.history[-5:]):
+            st.write(f"• {item['prediction']} · {item['score']:.3f}")
+    else:
+        st.caption("No analyses in this session yet.")
 
 
-# -----------------------------------
-# PAGE TITLE
-# -----------------------------------
-st.title("🫁 Multi-Modal Lung Disease Detection")
+# --------------------------------------------------
+# HEADER
+# --------------------------------------------------
+st.markdown("""
+<div class="hero">
+    <h1>🫁 Multi-Modal Lung Disease Detection</h1>
+    <p>AI-assisted exploration of chest X-ray and CT images with score-level fusion and visual explainability.</p>
+</div>
+""", unsafe_allow_html=True)
 
-st.info(
-    "AI-Powered Analysis using Chest X-Ray, CT Scan, ResNet50, Grad-CAM and Gemini AI"
+st.warning(
+    "Research demonstration only — model outputs are not a diagnosis, "
+    "not calibrated clinical probabilities, and must not guide treatment. "
+    "A qualified healthcare professional must interpret medical images."
 )
 
-st.write(
-    "Upload Chest X-ray and/or CT Scan images for AI-based analysis."
-)
+st.markdown("### Upload imaging data")
+left, right = st.columns(2)
 
-
-# -----------------------------------
-# FILE UPLOADS
-# -----------------------------------
-xray_file = st.file_uploader(
-    "Upload Chest X-ray",
-    type=["jpg", "jpeg", "png"]
-)
-
-ct_file = st.file_uploader(
-    "Upload Chest CT Scan",
-    type=["jpg", "jpeg", "png"]
-)
-
-
-# -----------------------------------
-# LOAD MODELS
-# -----------------------------------
-xray_model = load_model("models/xray_model.h5")
-ct_model = load_model("models/ct_model.h5")
-
-xray_prob = None
-ct_prob = None
-
-xray_temp = None
-ct_temp = None
-
-
-# -----------------------------------
-# PROCESS X-RAY
-# -----------------------------------
-if xray_file:
-
-    xray_temp = tempfile.NamedTemporaryFile(delete=False)
-
-    xray_temp.write(xray_file.read())
-
-    xray_img = preprocess(xray_temp.name)
-
-    xray_prob = predict_single(
-        xray_model,
-        xray_img,
-        "xray"
+with left:
+    xray_file = st.file_uploader(
+        "Chest X-ray",
+        type=["jpg", "jpeg", "png"],
+        key="main_xray"
     )
 
-
-# -----------------------------------
-# PROCESS CT
-# -----------------------------------
-if ct_file:
-
-    ct_temp = tempfile.NamedTemporaryFile(delete=False)
-
-    ct_temp.write(ct_file.read())
-
-    ct_img = preprocess(ct_temp.name)
-
-    ct_prob = predict_single(
-        ct_model,
-        ct_img,
-        "ct"
+with right:
+    ct_file = st.file_uploader(
+        "Chest CT slice",
+        type=["jpg", "jpeg", "png"],
+        key="main_ct"
     )
 
+if xray_file or ct_file:
+    preview_cols = st.columns(2)
+    if xray_file:
+        with preview_cols[0]:
+            st.image(xray_file.getvalue(), caption="Selected chest X-ray", use_container_width=True)
+    if ct_file:
+        with preview_cols[1]:
+            st.image(ct_file.getvalue(), caption="Selected CT slice", use_container_width=True)
 
-# -----------------------------------
-# ANALYZE BUTTON
-# -----------------------------------
-if st.button("🔍 Analyze Images"):
+analyse = st.button(
+    "🔍 Analyse selected images",
+    type="primary",
+    disabled=(xray_file is None and ct_file is None),
+    use_container_width=True
+)
 
-    with st.spinner("Analyzing medical images..."):
 
-        if xray_prob is None and ct_prob is None:
+# --------------------------------------------------
+# ANALYSIS PIPELINE
+# --------------------------------------------------
+if analyse:
+    temp_paths = []
+    analysis_result = {
+        "xray_prob": None,
+        "ct_prob": None,
+        "xray_original": xray_file.getvalue() if xray_file else None,
+        "ct_original": ct_file.getvalue() if ct_file else None,
+        "xray_cam": None,
+        "ct_cam": None,
+        "gradcam_warnings": [],
+    }
 
-            st.warning(
-                "Please upload at least one image."
-            )
+    def save_upload(upload):
+        suffix = Path(upload.name).suffix.lower() or ".png"
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as temp:
+            temp.write(upload.getvalue())
+            temp_paths.append(temp.name)
+            return temp.name
 
-        else:
+    try:
+        with st.spinner("Running image preprocessing and model inference..."):
+            if xray_file:
+                xray_model = load_model("models/xray_model.h5")
+                xray_path = save_upload(xray_file)
+                xray_array = preprocess(xray_path)
+                analysis_result["xray_prob"] = float(
+                    predict_single(xray_model, xray_array, "xray")
+                )
+                try:
+                    heatmap = get_gradcam_heatmap(xray_array, xray_model)
+                    overlay = overlay_heatmap(xray_path, heatmap)
+                    analysis_result["xray_cam"] = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
+                except Exception as exc:
+                    analysis_result["gradcam_warnings"].append(f"X-ray Grad-CAM unavailable: {exc}")
 
-            # -----------------------------------
-            # FUSION
-            # -----------------------------------
+            if ct_file:
+                ct_model = load_model("models/ct_model.h5")
+                ct_path = save_upload(ct_file)
+                ct_array = preprocess(ct_path)
+                analysis_result["ct_prob"] = float(
+                    predict_single(ct_model, ct_array, "ct")
+                )
+                try:
+                    heatmap = get_gradcam_heatmap(ct_array, ct_model)
+                    overlay = overlay_heatmap(ct_path, heatmap)
+                    analysis_result["ct_cam"] = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
+                except Exception as exc:
+                    analysis_result["gradcam_warnings"].append(f"CT Grad-CAM unavailable: {exc}")
+
             label, score = fuse_predictions(
-                xray_prob,
-                ct_prob
+                analysis_result["xray_prob"],
+                analysis_result["ct_prob"]
             )
+            analysis_result["prediction"] = label
+            analysis_result["score"] = float(score)
+            analysis_result["explanation"] = explain(label, float(score))
+            analysis_result["modalities"] = [
+                name for name, value in [
+                    ("Chest X-ray", analysis_result["xray_prob"]),
+                    ("CT scan", analysis_result["ct_prob"])
+                ] if value is not None
+            ]
 
+            st.session_state.analysis = analysis_result
             st.session_state.history.append({
-                "Prediction": label,
-                "Confidence": round(score, 2)
+                "prediction": label,
+                "score": float(score)
             })
 
-            # -----------------------------------
-            # KPI DASHBOARD
-            # -----------------------------------
-            st.subheader("Analysis Results")
+    except Exception as exc:
+        st.error(f"Analysis could not be completed: {exc}")
+        st.exception(exc)
 
-            col1, col2, col3 = st.columns(3)
+    finally:
+        for path in temp_paths:
+            try:
+                os.remove(path)
+            except OSError:
+                pass
 
-            with col1:
-                st.metric(
-                    "Prediction",
-                    label
-                )
 
-            with col2:
-                st.metric(
-                    "Confidence",
-                    f"{score*100:.1f}%"
-                )
+# --------------------------------------------------
+# DISPLAY RESULTS
+# --------------------------------------------------
+result = st.session_state.analysis
 
-            with col3:
+if result:
+    st.divider()
+    st.markdown("## Analysis overview")
 
-                if score > 0.8:
-                    risk = "High"
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Model classification", result["prediction"])
+    col2.metric("Aggregate model score", f"{result['score'] * 100:.1f}%")
+    col3.metric("Input modalities", len(result["modalities"]))
 
-                elif score > 0.5:
-                    risk = "Medium"
+    if result["prediction"] == "Abnormal":
+        st.error("The model classified the supplied image score as abnormal. This requires professional clinical review.")
+    else:
+        st.info("The model did not classify the supplied image score as abnormal. This does not rule out disease.")
 
-                else:
-                    risk = "Low"
+    st.markdown("### Modality-level model outputs")
+    score_cols = st.columns(2)
+    if result["xray_prob"] is not None:
+        score_cols[0].metric("X-ray abnormality score", f"{result['xray_prob']:.4f}")
+    if result["ct_prob"] is not None:
+        score_cols[1].metric("CT abnormality score", f"{result['ct_prob']:.4f}")
 
-                st.metric(
-                    "Risk Level",
-                    risk
-                )
+    if result["gradcam_warnings"]:
+        for warning in result["gradcam_warnings"]:
+            st.caption(warning)
 
-            # -----------------------------------
-            # RISK INDICATOR
-            # -----------------------------------
-            if score > 0.8:
+    st.markdown("### Explainability")
+    if result["xray_original"] is not None:
+        st.markdown("**Chest X-ray**")
+        c1, c2 = st.columns(2)
+        c1.image(result["xray_original"], caption="Original X-ray", use_container_width=True)
+        if result["xray_cam"] is not None:
+            c2.image(result["xray_cam"], caption="Grad-CAM overlay", use_container_width=True)
 
-                st.error(
-                    "🔴 High Probability of Abnormality"
-                )
+    if result["ct_original"] is not None:
+        st.markdown("**CT scan**")
+        c1, c2 = st.columns(2)
+        c1.image(result["ct_original"], caption="Original CT slice", use_container_width=True)
+        if result["ct_cam"] is not None:
+            c2.image(result["ct_cam"], caption="Grad-CAM overlay", use_container_width=True)
 
-            elif score > 0.5:
+    st.markdown("### AI-generated explanation")
+    st.write(result["explanation"])
 
-                st.warning(
-                    "🟠 Moderate Probability of Abnormality"
-                )
+    st.markdown("### Research screening summary")
+    summary = f"""MULTI-MODAL LUNG IMAGE SCREENING SUMMARY
 
-            else:
+Classification: {result['prediction']}
+Aggregate model output score: {result['score']:.4f}
+Input modalities: {', '.join(result['modalities'])}
 
-                st.success(
-                    "🟢 Low Probability of Abnormality"
-                )
+X-ray abnormality score: {result['xray_prob'] if result['xray_prob'] is not None else 'Not supplied'}
+CT abnormality score: {result['ct_prob'] if result['ct_prob'] is not None else 'Not supplied'}
 
-            # -----------------------------------
-            # MODEL SCORES
-            # -----------------------------------
-            st.subheader("Individual Model Scores")
+Explanation:
+{result['explanation']}
 
-            if xray_prob is not None:
-                st.write(
-                    f"Chest X-Ray Score: {xray_prob:.2f}"
-                )
-
-            if ct_prob is not None:
-                st.write(
-                    f"CT Scan Score: {ct_prob:.2f}"
-                )
-
-            # -----------------------------------
-            # X-RAY ANALYSIS
-            # -----------------------------------
-            if xray_prob is not None:
-
-                st.subheader("Chest X-Ray Analysis")
-
-                heatmap = get_gradcam_heatmap(
-                    xray_img,
-                    xray_model
-                )
-
-                result = overlay_heatmap(
-                    xray_temp.name,
-                    heatmap
-                )
-
-                col1, col2 = st.columns(2)
-
-                with col1:
-                    st.image(
-                        xray_file,
-                        caption="Original X-Ray",
-                        use_container_width=True
-                    )
-
-                with col2:
-                    st.image(
-                        result,
-                        caption="Grad-CAM Heatmap",
-                        use_container_width=True
-                    )
-
-            # -----------------------------------
-            # CT ANALYSIS
-            # -----------------------------------
-            if ct_prob is not None:
-
-                st.subheader("CT Scan Analysis")
-
-                heatmap = get_gradcam_heatmap(
-                    ct_img,
-                    ct_model
-                )
-
-                result = overlay_heatmap(
-                    ct_temp.name,
-                    heatmap
-                )
-
-                col1, col2 = st.columns(2)
-
-                with col1:
-                    st.image(
-                        ct_file,
-                        caption="Original CT Scan",
-                        use_container_width=True
-                    )
-
-                with col2:
-                    st.image(
-                        result,
-                        caption="Grad-CAM Heatmap",
-                        use_container_width=True
-                    )
-
-            # -----------------------------------
-            # AI EXPLANATION
-            # -----------------------------------
-            st.subheader("🤖 AI Medical Explanation")
-
-            explanation = explain(
-                label,
-                score
-            )
-
-            st.write(explanation)
-
-            # -----------------------------------
-            # MEDICAL REPORT
-            # -----------------------------------
-            st.subheader("📋 Medical Report Summary")
-
-            st.markdown(f"""
-### Diagnostic Summary
-
-**Prediction:** {label}
-
-**Confidence Score:** {score:.2f}
-
-**Imaging Modalities:** Chest X-Ray + CT Scan
-
-**AI Models:** ResNet50 Transfer Learning
-
-**Explainability:** Grad-CAM Enabled
-
-**Analysis Type:** Multi-Modal Lung Disease Detection
-""")
-
-            # -----------------------------------
-            # DOWNLOAD REPORT
-            # -----------------------------------
-            report = f'''
-MULTI-MODAL LUNG DISEASE DETECTION REPORT
-
-Prediction: {label}
-
-Confidence Score: {score:.2f}
-
-X-Ray Score: {xray_prob}
-
-CT Score: {ct_prob}
-
-AI Explanation:
-
-{explanation}
-'''
-
-            st.download_button(
-                label="📄 Download Medical Report",
-                data=report,
-                file_name="lung_disease_report.txt",
-                mime="text/plain"
-            )
+IMPORTANT:
+This output is generated by an AI research demonstration. It is not a diagnosis,
+not a calibrated clinical probability, and must not be used for treatment decisions.
+A qualified healthcare professional must interpret the images.
+"""
+    st.download_button(
+        "📄 Download analysis summary",
+        data=summary,
+        file_name="lung_image_screening_summary.txt",
+        mime="text/plain"
+    )

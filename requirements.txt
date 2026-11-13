@@ -1,0 +1,10 @@
+streamlit
+tensorflow
+numpy
+pandas
+Pillow
+opencv-python-headless
+matplotlib
+scikit-learn
+google-genai
+python-dotenv
