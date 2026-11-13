@@ -45,22 +45,6 @@ st.markdown("""
 
 
 # --------------------------------------------------
-# CACHED MODEL LOADING
-# --------------------------------------------------
-@st.cache_resource(show_spinner="Loading trained AI models...")
-def load_models():
-    xray_path = Path("models/xray_model.h5")
-    ct_path = Path("models/ct_model.h5")
-
-    if not xray_path.exists():
-        raise FileNotFoundError(f"X-ray model not found: {xray_path}")
-    if not ct_path.exists():
-        raise FileNotFoundError(f"CT model not found: {ct_path}")
-
-    return load_model(str(xray_path)), load_model(str(ct_path))
-
-
-# --------------------------------------------------
 # SESSION STATE
 # --------------------------------------------------
 if "history" not in st.session_state:
@@ -174,9 +158,8 @@ if analyse:
 
     try:
         with st.spinner("Running image preprocessing and model inference..."):
-            xray_model, ct_model = load_models()
-
             if xray_file:
+                xray_model = load_model("models/xray_model.h5")
                 xray_path = save_upload(xray_file)
                 xray_array = preprocess(xray_path)
                 analysis_result["xray_prob"] = float(
@@ -190,6 +173,7 @@ if analyse:
                     analysis_result["gradcam_warnings"].append(f"X-ray Grad-CAM unavailable: {exc}")
 
             if ct_file:
+                ct_model = load_model("models/ct_model.h5")
                 ct_path = save_upload(ct_file)
                 ct_array = preprocess(ct_path)
                 analysis_result["ct_prob"] = float(
